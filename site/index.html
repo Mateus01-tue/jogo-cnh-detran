@@ -4,23 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Foco na CNH</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
+    
     <header>
         <h1>Foco na CNH</h1>
+        <nav>
+            <a href="index.html">Início</a>
+            <a href="sobre.html">Sobre</a>
+            <a href="jogo.html">Jogar</a>
+            <a href="contato.html">Contato</a>
+        </nav>
     </header>
+    
     <section>
-        <p>Treine para a prova teórica do DETRAN de forma simples e divertida!</p>
+        <h2> Simulador de prova do DETRAN 2D</h2>
 
-        <button onclick="irparajogo()">Jogar Agora</button>
+        <p>Treine para a prova do DETRAN com um simulador interativo.
+        Aprenda na prática e aumente suas chances de aprovação!
+    </p>
+        
+    <div class="container">
+            <img src="imagens/img.momentania.png" alt="Simulador de direção 2D com carro em uma rua">
 
-        <img src="imagens/img.momentania.png" alt="Simulador de direção 2D com carro em uma rua">
-    </section>
+            <button onclick="irparajogo()">Jogar Agora</button>
+        </div>
+        </section>
+
+        <section class="info">
+            <h2>O que você vai aprender?</h2>
+            <ul>
+                <li>Respeitar regras de trânsito</li>
+                <li>Identificar placas de sinalização</li>
+                <li>Evitar erros comuns na prova</li>
+            </ul>
+        </section>
 
     <script>
         function irparajogo() {
-            window.location.href = "link do jogo";
+            window.location.href = "jogo.html";
         }
     </script>
     
