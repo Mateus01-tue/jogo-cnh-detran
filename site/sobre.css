@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: linear-gradient(135deg, #ff8c00, #000000);
+    background-attachment: fixed;
+}
+header {
+    text-align: center;
+}
+button {
+    background: orange;
+    padding: 20px;
+    border-radius: 15%;
+    cursor: pointer;
+    border: none;
+    color: white;
+}
+button:hover {
+    background: black;
+    transform: scale(1.15);
+    transition: 0.5s;
+}
