@@ -4,6 +4,8 @@ body {
     background: #f5f5f5;
 }
  header {
+   overflow: hidden;
+   position: relative;
     height: 70px;
     border-bottom: 4px solid orange;
     background: #222;
@@ -12,6 +14,20 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+ }
+ @keyframes andar {
+   0% {
+      left: -60px;
+   }
+   100% {
+      left: 100%;
+   }
+   }
+ .carroan {
+   width: 50px;
+   position: absolute;
+   bottom: -10px;
+   animation: andar 6s linear infinite;
  }
  nav {
     display: flex;
