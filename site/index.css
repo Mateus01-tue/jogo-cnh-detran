@@ -59,14 +59,13 @@ body {
     color: white;
     background: #ff8c00;
     position: absolute;
-    bottom: 40px;
-    right: 40px;
+    bottom: 168px;
+    right: 250px;
     padding: 14px 30px;
     font-size: 16px;
     border-radius: 10px;
     cursor: pointer;
     border: none;
-    position: absolute;
  }
  .btn:hover {
     background: orange;
