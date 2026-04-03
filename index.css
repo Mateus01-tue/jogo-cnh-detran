@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #f5f5f5;
+}
+ header {
+   overflow: hidden;
+   position: relative;
+    height: 70px;
+    border-bottom: 4px solid orange;
+    background: #222;
+    color: white;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ @keyframes andar {
+   0% {
+      left: -60px;
+   }
+   100% {
+      left: 100%;
+   }
+   }
+ .carroan {
+   width: 50px;
+   position: absolute;
+   bottom: -10px;
+   animation: andar 6s linear infinite;
+ }
+ nav {
+    display: flex;
+    gap: 180px;
+    padding: 150px;
+ }
+ nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+     transition: 0.3s;
+ }
+ nav a:hover {
+    color: darkorange;
+ }
+ .hero {
+    position: relative;
+    height: 85vh;
+    width: 100%;
+ }
+ .hero .bg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+ }
+ /* BOTÃO */
+ .btn {
+    color: white;
+    background: #ff8c00;
+    position: absolute;
+    bottom: 168px;
+    right: 250px;
+    padding: 14px 30px;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+ }
+ .btn:hover {
+    background: orange;
+    box-shadow: 0 0 15px orange;
+    transform: scale(1.15);
+ }
+.btn-topo {
+    transition: 0.3s;
+    background: orange;
+    color: white;
+    padding: 15px 90px;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+}
+.btn-topo:hover {
+    background: black;
+    box-shadow: 0 0 10px orange;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.logo h1 {
+    margin: 0;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+}
+.logo img {
+    transform: translateY(-6px);
+    height: 40px;
+    width: auto;
+    display: block;
+}
