@@ -3,27 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sobre</title>
+    <title>Missão CNH</title>
+    <link rel="icon" href="imagens/icone.carro1.png">
     <link rel="stylesheet" href="sobre.css">
 </head>
 <body>
     <header>
-        <h2>>Sobre o projeto<</h2>
-        <p>
-            O Missão CNH é um simulador 2D criado para ajudar pessoas a treinarem para a prova teórica do DETRAN de forma prática e interativa.
-        </p>
+        <div class="logo">
+        <h1>Missão CNH</h1>
+        <img src="imagens/icone.carro1.png" alt="logo de um carro">
+        </div>
+        
+        <nav>
+            <a href="index.html">Início</a>
+            <a href="sobre.html">Sobre</a>
+            <a href="contato.html">Como Jogar</a>
+            <a href="contato.html">Contato</a>
+        </nav>
 
-        <h2>Para quem é?</h2>
-        <p>Este site é voltado para iniciantes que estão estudando para tirar a CNH e têm dificuldade em aprender apenas com teoria.
-        </p>
-        <h2>Por que usar?</h2>
-        <p>O jogo facilita o aprendizado através de situações reais, ajudando o usuário a memorizar regras de trânsito de forma mais rápida.</p>
+        <button class="btn-topo" onclick="irparajogo()">jogar</button>
 
-        <button onclick="irparajogo()">Ir para o jogo</button>
+         <div class="animacao">
+        <img src="imagens/carro-anim.png" class="carroan">
+        
+         </div>
+    </header>
+    <div class="container-textos">
+    <img src="imagens/carrodetran-removebg-preview.png" alt="Carro Simulador 2D" title="Carro Simulador 2D" class="carro1">
+
+    <h1>Sobre o Missão CNH</h1>
+
+    <div class="container">
+
+    <div class="card">
+    <h2>O que é o jogo?</h2>
+    <p>O missão CNH é um jogo educativo desenvolvido para ajudar jogadores a aprender regras de trânsito de forma interativa e divertida.</p>
     </div>
+    
+    <div class="card">
+    <h2>Objetivos</h2>
+    <p>O objetivo do jogo é permitir que o jogador pratique conhecimentos sobre trânsito enquanto enfrenta desafios dentro de um ambiente simulado.</p>
+    </div>
+   
+    <div class="card">
+    <h2>Público-alvo?</h2>
+    <p>O público-alvo do jogo Missão CNH são jovens e adultos que estão se preparando para a prova teórica da habilitação. Durante o processo de aprendizagem, esses usuários buscam formas mais dinâmicas e interativas de estudar, além da leitura tradicional. O jogo atende principalmente iniciantes, ajudando a reforçar o conhecimento sobre regras de trânsito de maneira prática e acessível.</p>
+    </div>
+    
+    <div class="card">
+    <h2>História do jogo</h2>
+    <p>No jogo Missão CNH, o jogador assume o papel de um motorista em aprendizado que precisa atravessar um percurso enfrentando situações do trânsito. Durante o caminho, surgem perguntas sobre regras de trânsito e obstáculos que exigem atenção e tomada de decisão. Para avançar, é necessário responder corretamente e evitar colisões. O objetivo é chegar ao final do trajeto com segurança, aplicando os conhecimentos adquiridos de forma prática e interativa.
+    </p>
+</div>
+    
 </div>
 
-    </header>
-    
+<button class="btn" onclick="irparajogo()">JOGUE AGORA</button>
+
+</div>
+
 </body>
-</html>
