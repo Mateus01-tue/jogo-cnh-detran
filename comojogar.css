@@ -56,23 +56,6 @@ body {
     display: block;
  }
  /* BOTÃO */
- .btn {
-    color: white;
-    background: #ff8c00;
-    position: absolute;
-    bottom: 168px;
-    right: 250px;
-    padding: 14px 30px;
-    font-size: 16px;
-    border-radius: 10px;
-    cursor: pointer;
-    border: none;
- }
- .btn:hover {
-    background: orange;
-    box-shadow: 0 0 15px orange;
-    transform: scale(1.15);
- }
 .btn-topo { transition: 0.3s; 
     background: orange; 
     color: white; 
