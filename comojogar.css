@@ -67,7 +67,20 @@ body {
 }
 .btn-topo:hover {
     background: black;
-    box-shadow: 0 0 10px orange;
+    box-shadow: 0 0 10px black;
+}
+.btn-baixo { transition: 0.3s; 
+    background: black; 
+    color: white; 
+    padding: 10px 30px;
+    font-size: 16px; 
+    border-radius: 10px; 
+    cursor: pointer;
+    border: none; 
+}
+.btn-baixo:hover {
+    background: red;
+    box-shadow: 0 0 10px white;
 }
 .logo {
     display: flex;
@@ -121,7 +134,7 @@ body {
 
 /* cada quadrado */
 .item {
-     background-image: linear-gradient(135deg, black, orange);
+     background: orange;
     padding: 20px;
     border-radius: 15px;
 }
