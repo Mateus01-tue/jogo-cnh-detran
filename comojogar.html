@@ -6,7 +6,7 @@
     <title>Como-Jogar</title>
 </head>
 <body>
-    
+
     <header>
         <div class="logo">
         <h1>Missão CNH</h1>
@@ -29,22 +29,35 @@
     </div>
     
     </header>
-   
-    <!--(estilo do jogo)-->
-   
-    <section class="hero">
-         <img src="imagens/comojogar.png" alt="Missão CNH como jogar" title="Como jogar" class="bg">
 
-         <a href="jogo/index.html"><button class="btn" onclick="irparajogo()">JOGUE AGORA</button>
-        </a>
+    <section class="como-jogar">
 
-        </section>
+    <div class="card-jogo">
 
-    <script>
-        function irparajogo() {
-            window.location.href = "jogo.html";
-        }
-    </script>
+
+        <h1>Para jogar é bem simples</h1> <img src="imagens/seta-para-baixo.png" alt="Seta orientando para baixo" title="Seta orientando para baixo" class="setaimg">
+
+        <div class="grid-jogo">
+
+            <div class="item">
+                <img src="imagens/setas.png" alt="setas" title="setas">
+                <p>Use as setas para controlar o carro</p>
+            </div>
+
+            <div class="item">
+                <img src="imagens/cursor.png" alt="Mouse" title="Mouse">
+                <p>Use o mouse para responder as questões</p>
+
+                <a href="jogo/index.html"><button class="btn-topo" onclick="irparajogo()">JOGUE   AGORA</button>
+
+    </a>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
     
 </body>
 </html
