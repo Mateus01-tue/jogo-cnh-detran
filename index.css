@@ -103,12 +103,3 @@ body {
     width: auto;
     display: block;
 }
-@media (max-width: 768px) {
-
-    nav {
-        gap: 10px;
-        padding: 10px;
-        flex-direction: column;
-    }
-
-}
